@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+body {
+    background: #F3F5FC;
+    font-family: 'Inter', sans-serif;
+
+  }
+  main{
+    background-color: rgb(160, 255, 255);
+  }
+  .logo_principal {
+	
+    margin: 40px 0 0  84px;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .principal{
+    float: left;
+    margin-left: 100px;
+    width: 55%;
+  }
+
+  .form{
+        width: 680px;
+        height: 400px;
+        margin-top: 20px;
+        resize: none;
+        color: #0A3871;
+        font-size: 32px;
+        background: none;
+        font-weight: 600px;
+        border: none;
+  }
+  .siderbar{
+    background-color: #ffffff;
+    float: left;
+    width: 30%;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+
+  }
+  #resultado{
+    font-size: 24px;
+    text-align: center;
+    color:  #495057;
+
+    padding: 45px;
+}
+
+.btn-cripto{
+    text-align: center;
+    padding: 24px;
+    gap: 8px;
+    width: 332px;
+    height: 67px;
+    background: #0A3871;
+    border: solid #0A3871;
+    border-radius: 24px;
+    color: #ffffff;
+}
+
+.btn-descripto{
+    text-align: center;
+    padding: 24px;
+    gap: 8px;
+    width: 332px;
+    height: 67px;
+    background: #ffffff00;
+    border: solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+
+}
+
+/*Responsividade para tablets*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .principal {
+        float: left;
+        width: 55%;
+      text-align: left;
+    }
+  
+    .textarea_principal {
+      width: 300px;
+      height: 250px;
+      margin-left: 1rem;
+    }
+	.form {
+		
+  width: 600px;
+  height: 300px;
+
+}
+    .siderbar{
+        float: left;
+        width: 100%;
+    }
+    .siderbar img{
+        display: none;
+        
+    }
+  }
+
+  @media (min-width: 425px) and (max-width: 768px) {
+    .principal {
+		margin-left: 0;
+        float: left;
+        width: 100%;
+      text-align: left;
+    }
+  
+    .textarea_principal {
+      width: 300px;
+      height: 250px;
+      margin-left: 1rem;
+    }
+	  
+	.form {	
+  width: 400px;
+  height: 200px;
+	  }
+    .siderbar{
+        float: left;
+		margin: 0 auto;
+        width: 4000;
+    }
+    .siderbar img{
+        display: none;
+        
+    }
+	  .btn-cripto{
+		  margin: 10px;
+		  text-align: center;
+		  
+	  }
+	 .btn-descripto{
+		  margin: 10px;
+		  text-align: center;
+	  }
+}
+@media (min-width: 375px) and (max-width: 425px) {
+	.principal {
+		margin: 10px;
+        width: 100%;
+      text-align: left;
+    }
+  
+    .textarea_principal {
+      width: 300px;
+      height: 150px;
+
+    }
+	.form {		
+  width: 300px;
+  height: 200px;
+	}
+	
+	.siderbar{
+		margin: 0 auto;
+        width: 340px;
+    }
+    .siderbar img{
+        display: none;
+        
+    }
+	  .btn-cripto{
+		  margin: 10px;
+		  text-align: center;
+		  
+	  }
+	 .btn-descripto{
+		  margin: 10px;
+		  text-align: center;
+
+}
+	
+}
+
+@media (min-width: 320px) and (max-width: 325px) {
+	.principal {
+		margin: 10px;
+        width: 100%;
+      text-align: left;
+    }
+  
+    .textarea_principal {
+      width: 300px;
+      height: 150px;
+
+    }
+	.form {		
+  width: 300px;
+  height: 200px;
+	}
+	
+    .siderbar{
+		margin: 0 auto;
+        width: 300px;
+    }
+    .siderbar img{		
+        display: none;
+        
+    }
+	  .btn-cripto{
+		  margin: 10px;
+		  text-align: center;
+		  
+	  }
+	 .btn-descripto{
+		  margin: 10px;
+		  text-align: center;
+
+}
+	
+}
+	  

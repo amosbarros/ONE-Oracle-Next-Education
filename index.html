@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="public/stylesheets/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo_principal">
+            <img src="img/logo.png" alt="Alura logo">
+        </div>
+    </header>
+    <main>
+        <section>
+
+        <div class="principal">
+            <textarea name="area-tx" class="form" id="area-tx" placeholder="Digite seu texto"></textarea>
+                <div>
+                    <img src="img/exclamacao.svg" alt="exclamação" width="16px"/>
+                    <label for="area-tx">Apenas letras minúsculas e sem acentos</label>
+                </div>
+                <div>
+                    <button class="btn-cripto" onClick="cripitoTx()" id="encrypt">Criptografar</button>
+                    <button class="btn-descripto" onClick="descriptoTx()" id="decrypt">Descriptografar</button>
+                </div>
+
+        </div>
+    </section>
+    <section class="siderbar">
+        <div id="resultado">
+
+            <img src="img/diamante.png" alt="A person looking at a gemstone through a magnifying glass">
+            <p><strong>Nenhuma mensagem encontrada</strong></p>
+            <p>Digite um texto que você queira criptografar ou descriptografar.</p>
+        </div>
+    </section>
+    </main>
+    <footer style="width: 360px;">
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
